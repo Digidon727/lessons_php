@@ -102,7 +102,29 @@ echo gettype($b). "<br>";
 $c = "33";
 $c = (array) $c;
 echo gettype($c). "<br>";
-print_r($c);
+print_r($c). "<br><br><br><br><br><br>";
+
+/* 
+Создать по одной переменной с типами string/ integer, float, boolean, array, null 
+(вывести информацию о переменной функцией var_dump) объяснить самому себе что вывело на экран
+
+*/
+
+$name_string = "Tom";
+$number_int = 123;
+$number_float = 13.2;
+$number_boolean = true;
+$number_array = [1,2,3,4,5];
+$num_null;
+
+var_dump($name_string). "<br>";
+var_dump($number_int). "<br>";
+var_dump($number_float). "<br>";
+var_dump($number_boolean). "<br>";
+var_dump($number_array). "<br>";
+var_dump($num_null). "<br>";
+
+
 
 
 
